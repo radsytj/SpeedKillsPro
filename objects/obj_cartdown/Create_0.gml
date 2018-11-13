@@ -4,6 +4,7 @@ deadtime = 90;
 dead = false;
 image_xscale = 3.5;
 image_yscale = 3.5;
+image_speed = 0.1;
 
 //speed calculation
 speednumber = random_range(1, 10);

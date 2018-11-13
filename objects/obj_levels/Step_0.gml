@@ -1,10 +1,10 @@
-if global.reputation >0 && global.reputation <80
+if global.reputation >0 && global.reputation <60
 {
 	global.currentlevel = 1
-} else if global.reputation >= 80 && global.reputation < 160
+} else if global.reputation >= 60 && global.reputation < 100
 {
 	global.currentlevel = 2
-} else if global.reputation >= 160 && global.reputation < 240
+} else if global.reputation >= 100
 {
 	global.currentlevel = 3
 }

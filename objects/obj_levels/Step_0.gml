@@ -15,7 +15,9 @@ if global.currentlevel = 1 && room != rm_lvl1
 } else if global.currentlevel = 2 && room != rm_lvl2
 {
 	room = rm_lvl2
+	global.reputation = global.reputation + 10
 } else if global.currentlevel = 3 && room != rm_lvl3
 {
 	room = rm_lvl3
+	global.reputation = global.reputation + 10
 }

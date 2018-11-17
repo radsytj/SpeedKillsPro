@@ -6,6 +6,7 @@ with (other)
 			{
 				enemyhp = enemyhp - 1
 				global.reputation = global.reputation - 10
+				global.innocentskilled = global.innocentskilled + 1
 			}
 			else 
 			{

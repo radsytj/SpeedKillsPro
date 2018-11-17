@@ -1,2 +1,2 @@
-spawntimedown = 400;
-alarm[0] = spawntimedown;
+spawntime = 400;
+alarm[0] = spawntime;

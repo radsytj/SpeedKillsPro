@@ -23,7 +23,11 @@ if global.currentlevel = 1 && room != rm_lvl1
 {
 	room = rm_lvl3
 	global.reputation = global.reputation + 10
-} else if global.currentlevel = 4 && room != rm_winbad or global.currentlevel = 4 && room != rm_wingood
+} else if global.currentlevel = 4 && room != rm_winbad and global.currentlevel = 4 && room != rm_wingood
 {
-	room = rm_winbad
+	if global.innocentskilled >=3
+	{
+		room = rm_winbad
+	}
+	else room = rm_wingood
 }

@@ -58,7 +58,7 @@
             "Key": "17ae78ef-68d9-4ece-ab63-f4429074a82e",
             "Value": {
                 "id": "1092abbe-5403-48cc-844a-acc004529676",
-                "resourcePath": "objects\\obj_gun\\obj_gun.yy",
+                "resourcePath": "objects\\obj_revolver\\obj_revolver.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "29b69146-2872-4d32-817a-bba41820a6db",
+            "Value": {
+                "id": "b19bebb6-cd07-45f1-94a5-0f40bfbe2e07",
+                "resourcePath": "sprites\\spr_rifle\\spr_rifle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "375635e1-1ca4-4131-87c8-6e765abb0ad3",
             "Value": {
                 "id": "28c847be-c000-437a-b4af-a90744ecc7fe",
@@ -127,6 +135,22 @@
             }
         },
         {
+            "Key": "55a20b33-8e22-4983-85a9-4a723e2a826b",
+            "Value": {
+                "id": "46cf5876-d34e-43f3-8e4b-c27cf27305ba",
+                "resourcePath": "sprites\\spr_revolverportrait\\spr_revolverportrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "580679d2-ff3c-42fe-b4a8-18f7880cc561",
+            "Value": {
+                "id": "4ce117cc-2516-4006-83a1-cc8d9b8c7eb4",
+                "resourcePath": "sprites\\spr_riflebullet\\spr_riflebullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59193cb8-c87f-451e-acd7-ec708869f26f",
             "Value": {
                 "id": "e7dca6de-2e61-4730-8cc3-ae738d5e8236",
@@ -146,7 +170,15 @@
             "Key": "5ec4c261-d1e3-4c12-a50d-82cb4d2dd14e",
             "Value": {
                 "id": "6ec80c0a-f73a-4fab-ac1a-d29ec32d36a3",
-                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourcePath": "objects\\obj_revolverbullet\\obj_revolverbullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "61be092f-cd33-4280-868a-f966f4280670",
+            "Value": {
+                "id": "6ab20e21-5ef6-414b-8729-17f9f09b0811",
+                "resourcePath": "objects\\obj_revolverportait\\obj_revolverportait.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -154,7 +186,7 @@
             "Key": "63a1252c-88dd-4e19-857d-4d47dc7b1561",
             "Value": {
                 "id": "a18860f6-545f-4df5-b208-c5b836b7c93d",
-                "resourcePath": "sprites\\spr_gun\\spr_gun.yy",
+                "resourcePath": "sprites\\spr_revolver\\spr_revolver.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -188,6 +220,14 @@
                 "id": "6d40ce75-0cf9-49af-8da6-16085b4c347f",
                 "resourcePath": "objects\\obj_cartdown\\obj_cartdown.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "744e170c-4134-4f0e-aef6-dae17b19888f",
+            "Value": {
+                "id": "cd490a6a-c336-499b-932d-9444afee629a",
+                "resourcePath": "sprites\\spr_rifleportrait\\spr_rifleportrait.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,6 +271,22 @@
             }
         },
         {
+            "Key": "833d240b-0fa6-4f1f-baf2-f5c3a99c4848",
+            "Value": {
+                "id": "7c7726e7-9e0d-4a67-b62c-c48369c9638b",
+                "resourcePath": "rooms\\rm_weaponselect\\rm_weaponselect.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8c4ef7a0-6c03-4d08-b8e2-026f2608c2df",
+            "Value": {
+                "id": "b25de226-a3ae-4e0b-83ee-741678a385a3",
+                "resourcePath": "objects\\obj_rifle\\obj_rifle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c6e9744-c0e6-430f-8921-4c404abacffd",
             "Value": {
                 "id": "f5f17bd4-2670-4f0c-82d5-b8ca61b7aaed",
@@ -260,6 +316,14 @@
                 "id": "487ea9ff-618e-4c15-92b0-b3b344bbda5a",
                 "resourcePath": "objects\\obj_variablemanager\\obj_variablemanager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c420a2a-575f-4678-b1a7-6852a125a915",
+            "Value": {
+                "id": "965f96be-4307-49db-90c7-c816aef38463",
+                "resourcePath": "views\\9c420a2a-575f-4678-b1a7-6852a125a915.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -319,6 +383,14 @@
             }
         },
         {
+            "Key": "b39dea61-ac62-40f5-be68-fa0b402725e0",
+            "Value": {
+                "id": "8a8635d2-36e3-4f89-8777-070777df0fec",
+                "resourcePath": "objects\\obj_rifleportait\\obj_rifleportait.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b3c23bbb-ec51-4271-b11b-112c82157d9e",
             "Value": {
                 "id": "2cc735df-54ba-4955-b064-c0533a36b6a4",
@@ -359,6 +431,14 @@
             }
         },
         {
+            "Key": "d3ffd00f-82bb-4494-9264-9b586110ed43",
+            "Value": {
+                "id": "5b9fdfff-f374-4ebd-abef-b2000c676ada",
+                "resourcePath": "sprites\\spr_weaponselect\\spr_weaponselect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4eabb0d-85cb-4225-843e-602dfa2ecfc9",
             "Value": {
                 "id": "e98e04db-2710-4ff0-9b2c-6d7ccc06c67a",
@@ -370,7 +450,7 @@
             "Key": "d5d1f946-8934-47b3-bdab-814a609cb507",
             "Value": {
                 "id": "205854bd-ddeb-4f07-8835-640e90e301b8",
-                "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourcePath": "sprites\\spr_revolverbullet\\spr_revolverbullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +476,22 @@
                 "id": "2bae887b-0509-4093-83ca-c3a32be0eda6",
                 "resourcePath": "rooms\\rm_winbad\\rm_winbad.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "df27af10-8cee-4dcd-8043-e1b08c709a6f",
+            "Value": {
+                "id": "2c364d5b-9836-405d-88ed-931e6e08501c",
+                "resourcePath": "objects\\obj_riflebullet\\obj_riflebullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e156a95c-967a-4d29-9564-6c56df247d44",
+            "Value": {
+                "id": "7112875b-234c-4391-a8a2-b1691fea4fba",
+                "resourcePath": "views\\e156a95c-967a-4d29-9564-6c56df247d44.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

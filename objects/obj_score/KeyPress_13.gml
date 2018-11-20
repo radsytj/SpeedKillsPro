@@ -1,7 +1,8 @@
 show_debug_message("Enter Pressed!");
-if room = rm_start or room = rm_winbad or room = rm_wingood
+if room != rm_weaponselect
 {
-	room = rm_lvl1
+	room = rm_weaponselect
 	global.reputation = 30
 	global.innocentskilled = 0
+	global.weapontype = 0
 }

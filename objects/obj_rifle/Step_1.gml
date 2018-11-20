@@ -9,15 +9,16 @@ else image_yscale = 1;
 reload = reload - 1;
 recoil = max(0, recoil - 1);
 
+//firing
 if (mouse_check_button(mb_left)) && (reload < 0)
 {
-	recoil = 10
-	reload = 15
-	with (instance_create_layer(x,y,"Bullets",obj_bullet))
+	recoil = 25
+	reload = 30
+	with (instance_create_layer(x,y,"Bullets",obj_riflebullet))
 	{
-		speed = 35;
-		direction = other.image_angle + random_range(-3, 3);
-		image_angle = direction;
+		speed = 70
+		direction = other.image_angle
+		image_angle = direction
 	}
 }
 
